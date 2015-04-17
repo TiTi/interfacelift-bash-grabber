@@ -30,8 +30,7 @@ do
 
 		for i in `cat $TEMPfile2`
 		do
-			#filename=`echo $i | cut -d / -f 4`
-			filename=nope
+			filename=`echo $i | cut -d / -f 4`
 
 			if ! test -f $filename
 			then
